@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHR">
+<test name = "Login Test Case">
+<classes>
+<class name = "TestCases.Login">
+</class>
+</classes>
+</test>
+<test name = "Get Leave Test Case">
+<classes>
+<class name = "TestCases.DashBoard">
+</class>
+</classes>
+</test>
+<test name = "Admin verify Test Case">
+<classes>
+<class name = "TestCases.AdminVerfify">
+</class>
+</classes>
+</test>
+</suite>

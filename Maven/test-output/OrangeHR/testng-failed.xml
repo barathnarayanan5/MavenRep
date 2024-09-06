@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHR]">
+  <test thread-count="5" name="Login Test Case(failed)">
+    <classes>
+      <class name="TestCases.Login">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestCases.Login -->
+    </classes>
+  </test> <!-- Login Test Case(failed) -->
+  <test thread-count="5" name="Get Leave Test Case(failed)">
+    <classes>
+      <class name="TestCases.DashBoard">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="getLeaveDetails"/>
+        </methods>
+      </class> <!-- TestCases.DashBoard -->
+    </classes>
+  </test> <!-- Get Leave Test Case(failed) -->
+  <test thread-count="5" name="Admin verify Test Case(failed)">
+    <classes>
+      <class name="TestCases.AdminVerfify">
+        <methods>
+          <include name="userVerification"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.AdminVerfify -->
+    </classes>
+  </test> <!-- Admin verify Test Case(failed) -->
+</suite> <!-- Failed suite [OrangeHR] -->
